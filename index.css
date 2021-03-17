@@ -24,22 +24,23 @@ h2{
 	color: #ef5839;
 	margin: 0, 0, 10, 0;
 }
+section{
+ padding: 20px;
+}
 .section-two{
 	background: #2e354f;
 	color: #fff;
 	margin: 0;
 }
 .container{
-	padding: 30px;
 	width: 620px;
 	margin: 0 auto;
-	
 }
 .btn{
 	margin-right: 10px;
 	text-decoration: none;
 	padding: 10px 20px;
-	
+	display: inline-block;
 }
 
 .btn-accent{
