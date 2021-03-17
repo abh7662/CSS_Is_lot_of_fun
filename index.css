@@ -9,12 +9,12 @@ header{
 	
 }
 h1{
-	margin-left: 10%;
+	margin: 0;
 }
 .section-one{
-	
+	margin: 0;
 }
-a:link, a:visited{
+a{
 	color: #ef5839;
 }
 a:hover, a:focus{
@@ -22,10 +22,12 @@ a:hover, a:focus{
 }
 h2{
 	color: #ef5839;
+	margin: 0, 0, 10, 0;
 }
 .section-two{
 	background: #2e354f;
 	color: #fff;
+	margin: 0;
 }
 .container{
 	padding: 30px;
@@ -37,16 +39,22 @@ h2{
 	margin-right: 10px;
 	text-decoration: none;
 	padding: 10px 20px;
+	
 }
 
 .btn-accent{
-	
+	color: #fff;
 	background: #ef5839;
 }
-.btn a:link, .btn a:visited{
+.btn-white:hover{
 	color: #fff;
+	background: #ef5839;
 }
 .btn-white{
+	color: #000;
+	background: #fff;
+}
+.btn-accent:hover{
 	color: #000;
 	background: #fff;
 }
